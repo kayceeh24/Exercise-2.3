@@ -21,10 +21,10 @@ elif page_views > 500000 or snap_shots > 100 or recordings > 5000:
 elif page_views > 150000 or snap_shots > 75 or recordings > 1000:
     print("You should subscribe to our PRO tier")
     print("The cost is $249 per month")
-elif page_views < 75000 or snap_shots > 50 or recordings > 500:
+elif page_views > 75000 or snap_shots > 50 or recordings > 500:
     print("You should subscribe to our PLUS tier")
     print("The cost is $99 per month")
-elif page_views < 30000 or snap_shots > 25 or recordings > 100:
+elif page_views > 30000 or snap_shots > 25 or recordings > 100:
     print("You should subscribe to our STANDARD tier")
     print("The cost is $49 per month")
 else:
