@@ -15,9 +15,9 @@ recordings = int(recordings)
 #This part will give the user's need based on the inputs
 if page_views < 0 or snap_shots < 0 or recordings < 0:
     print("These values can't be negative")
-elif page_views < 50000 or snap_shots < 100 or recordings < 5000:
-     print("You should subscribe to our ENTERPRISE tier")
-     print("Contact us for a quote")
+elif page_views < 500000 or snap_shots < 100 or recordings < 5000:
+    print("You should subscribe to our ENTERPRISE tier")
+    print("Contact us for a quote")
 elif page_views > 150000 or snap_shots > 75 or recordings > 1000:
     print("You should subscribe to our PLUS tier")
     print("The cost is $249 per month")
